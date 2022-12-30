@@ -8,6 +8,8 @@
   src: url(jovera-webfont.woff2) format(woff2);
 }
 
+h1,
+h2,
 h3 {
   font-family: "jovera";
 }
@@ -70,4 +72,9 @@ ul a {
 
 .dropdown-content a:hover {
   background-color: #f1f1f1;
+}
+
+.font1 {
+  font-family: "jovera";
+  font-size: 35px;
 }
