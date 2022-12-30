@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "elgraine";
+  src: url(elgraine-thin-webfont.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: "jovera";
+  src: url(jovera-webfont.woff2) format(woff2);
+}
+
+h3 {
+  font-family: "jovera";
+}
+
+p {
+  font-family: "elgraine";
+}
+
+.dropbtn {
+  font-family: "jovera";
+}
+
+header {
+  padding: 25px;
+  background: #e8e3db;
+}
+
+.logo img {
+  width: 75%;
+  align-items: flex-start;
+}
+
+ul {
+  font-family: "jovera";
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 0%;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
