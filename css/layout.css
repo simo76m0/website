@@ -39,8 +39,10 @@
 }
 
 .content_col_1 {
-  display: grid;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
 }
 
 .content_col_2 {
