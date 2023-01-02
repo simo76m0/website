@@ -58,3 +58,52 @@
   color: black;
   padding: 25px;
 }
+
+/* ux.html */
+
+.ux-img {
+  width: 100%;
+}
+
+.ux_grid-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ux_grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.ux_grid-1-1 {
+  display: flex;
+  align-content: center;
+  gap: 25px;
+}
+
+.ux_grid-1-1 img {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* web.html */
+
+.web_grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+  margin: 10px;
+}
+
+.web_col-1 img {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.web_col-2 {
+  text-align: center;
+}
