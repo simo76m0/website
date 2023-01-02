@@ -123,3 +123,38 @@ p {
 p {
   width: 100%;
 }
+
+.ani_grid-1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.ani_col-1 {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.ani_col-1 h2,
+p {
+  text-align: center;
+}
+
+.ani_col-2 img {
+  width: 100%;
+}
+
+.ani_grid-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.ani_img {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  width: 100%;
+}
