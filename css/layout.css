@@ -107,3 +107,19 @@
 .web_col-2 {
   text-align: center;
 }
+
+.web_grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.web_grid_1-1-1 h2,
+p {
+  text-align: center;
+}
+
+.web_grid_1-1-1 img,
+p {
+  width: 100%;
+}
