@@ -166,3 +166,22 @@ p {
 .indhold_grid-1-1-1 video {
   width: 100%;
 }
+
+/* about.html */
+
+.about_grid-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.about_grid-1 p {
+  max-width: 35%;
+}
+
+.about_grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+}

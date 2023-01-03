@@ -68,3 +68,9 @@ header .navbar ul li:hover ul {
   display: block;
   position: absolute;
 }
+
+footer {
+  background: #e8e3db;
+  padding: 10px;
+  font-size: 12px;
+}
