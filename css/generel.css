@@ -30,6 +30,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background: #e8e3db;
+  margin: 10px;
 }
 
 header .navbar ul {
@@ -73,4 +74,16 @@ footer {
   background: #e8e3db;
   padding: 10px;
   font-size: 12px;
+  margin: 10px;
+}
+
+.click_btn {
+  font-weight: bolder;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5%;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "jovera";
 }
