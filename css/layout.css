@@ -168,6 +168,12 @@
   background: #8e9fad;
 }
 
+.h2_web_col {
+  text-align: right;
+  font-size: 35px;
+  line-height: 46px;
+}
+
 /* animation.html */
 
 .ani_grid_2-1 {

@@ -8,6 +8,11 @@
   src: url(jovera-webfont.woff2) format(woff2);
 }
 
+@font-face {
+  font-family: "elgraine_black";
+  src: url(elgraine-black-webfont.woff2) format(woff2);
+}
+
 h1,
 h2,
 h3 {
@@ -21,6 +26,11 @@ p {
 .font1 {
   font-family: "jovera";
   font-size: 35px;
+}
+
+strong {
+  font-family: "elgraine_black";
+  font-size: 30px;
 }
 
 /* Navigation */
