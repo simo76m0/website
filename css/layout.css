@@ -132,9 +132,13 @@
   margin: 10px;
 }
 
-.web_grid_1-1-1 h2,
-p {
+.web_grid_1-1-1 h2 {
   text-align: center;
+}
+
+.web_grid_1-1-1 p {
+  text-align: left;
+  max-width: 85%;
 }
 
 .web_grid_1-1-1 img {
