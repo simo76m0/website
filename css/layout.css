@@ -288,12 +288,17 @@ p {
   margin: 10px;
 }
 
-.about_grid-1 img {
-  width: 25%;
+.about_grid-1_contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.about_grid-1 p {
-  max-width: 35%;
+.about_grid-1_contact p {
+  text-align: center;
+}
+
+.about_grid-1 img {
+  width: 25%;
 }
 
 .about_grid-1-1 {
@@ -307,6 +312,9 @@ p {
   text-align: right;
   background: #8e9fad;
   color: white;
+  padding-top: 45px;
+  padding-right: 45px;
+  padding-bottom: 45px;
 }
 
 .about_flex_col-1 p {
@@ -316,6 +324,9 @@ p {
 
 .about_flex_col-2 {
 background: #f9f9f9;
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-bottom: 45px;
 }
 
 .about_grid-1-1-f {
@@ -328,8 +339,17 @@ background: #f9f9f9;
 .about_flex_grid_f1 {
   background: #e8e3db;
   text-align: right;
+    padding-top: 45px;
+  padding-right: 45px;
+  padding-bottom: 45px;
 }
 
 .about_flex_grid_f1 p {
   text-align: right;
+}
+
+.about_flex_grid_f2 {
+    padding-top: 45px;
+  padding-left: 45px;
+  padding-bottom: 45px;
 }
