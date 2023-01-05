@@ -322,11 +322,27 @@ p {
   background: #8e9fad;
 }
 
+.about_flex_col-1 h2 {
+  display: inline-block;
+  border: dotted;
+  border-radius: 10px;
+  padding: 15px;
+  border-color: #e8e3db;
+}
+
 .about_flex_col-2 {
 background: #f9f9f9;
   padding-top: 45px;
   padding-left: 45px;
   padding-bottom: 45px;
+}
+
+.about_flex_col-2 h2 {
+    display: inline-block;
+  border: dotted;
+  border-radius: 10px;
+  padding: 15px;
+  border-color: #8e9fad;
 }
 
 .about_grid-1-1-f {
@@ -339,7 +355,7 @@ background: #f9f9f9;
 .about_flex_grid_f1 {
   background: #e8e3db;
   text-align: right;
-    padding-top: 45px;
+  padding-top: 45px;
   padding-right: 45px;
   padding-bottom: 45px;
 }
@@ -348,8 +364,24 @@ background: #f9f9f9;
   text-align: right;
 }
 
+.about_flex_grid_f1 h2 {
+      display: inline-block;
+  border: dotted;
+  border-radius: 10px;
+  padding: 15px;
+  border-color: white;
+}
+
 .about_flex_grid_f2 {
-    padding-top: 45px;
+  padding-top: 45px;
   padding-left: 45px;
   padding-bottom: 45px;
+}
+
+.about_flex_grid_f2 h2 {
+  display: inline-block;
+  border: dotted;
+  border-radius: 10px;
+  padding: 15px;
+  border-color: #8e9fad;
 }
