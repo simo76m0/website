@@ -51,6 +51,11 @@
   text-decoration: none;
   color: black;
   padding: 25px;
+  transition: 1s;
+}
+
+.content_col_2 a:hover {
+transform: scale(1.01);
 }
 
 /* ux.html */
@@ -294,7 +299,11 @@ p {
 }
 
 .about_grid-1_contact p {
+  display: inline-block;
   text-align: center;
+  background-color: #e8e3db;
+  margin: 10px;
+  padding: 10px;
 }
 
 .about_grid-1 img {
@@ -365,7 +374,7 @@ background: #f9f9f9;
 }
 
 .about_flex_grid_f1 h2 {
-      display: inline-block;
+  display: inline-block;
   border: dotted;
   border-radius: 10px;
   padding: 15px;
