@@ -100,4 +100,9 @@ footer .footer_text {
   text-decoration: none;
   font-size: 25px;
   font-family: "jovera";
+  transition: 1s;
+}
+
+.click_btn:hover {
+  transform: scale(1.1);
 }
