@@ -87,6 +87,10 @@ footer {
   margin: 10px;
 }
 
+footer .footer_text {
+  text-align: center;
+}
+
 .click_btn {
   font-weight: bolder;
   background-color: #ffffff;
