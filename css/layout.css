@@ -121,6 +121,12 @@ transform: scale(1.01);
   width: 100%;
 }
 
+.ux_grid-1-1_col {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 10px;
+}
+
 /* web.html */
 
 .web_col-1 img {
@@ -153,9 +159,9 @@ transform: scale(1.01);
 .web_grid_1-1-1 img {
   width: 100%;
   border-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   border-radius: 10px;
-  border-color: #e8e3db;
+  border-color:black;
 }
 
 .web_grid_2-1 {
