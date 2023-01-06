@@ -127,6 +127,12 @@ transform: scale(1.01);
   padding: 10px;
 }
 
+.font3 {
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px;
+}
+
 /* web.html */
 
 .web_col-1 img {
@@ -293,6 +299,30 @@ p {
 
 .indhold_grid_1-2 img {
   width: 100%;
+}
+
+.indhold_grid-1 {
+  max-width: 65%;
+  text-align: center;
+}
+
+.indhold_grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.indhold_grid-1-1 img {
+width: 100%;
+border-style: solid;
+border-width: 1px;
+border-radius: 10px;
+border-color:black;
+}
+
+.indhold_grid-1-1_col_1 {
+  
 }
 
 /* about.html */
