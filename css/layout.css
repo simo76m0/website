@@ -70,6 +70,7 @@ transform: scale(1.01);
 }
 
 .ux_grid-1-1-1 p {
+  text-align: justify;
   max-width: 85%;
 }
 
@@ -158,7 +159,7 @@ transform: scale(1.01);
 }
 
 .web_grid_1-1-1 p {
-  text-align: left;
+  text-align: justify;
   max-width: 85%;
 }
 
@@ -228,9 +229,12 @@ transform: scale(1.01);
   padding: 10px;
 }
 
-.ani_col-1 h2,
-p {
+.ani_col-1 h2 {
   text-align: left;
+}
+
+.ani_col-1 p {
+  text-align: justify;
 }
 
 .ani_col-2 img {
@@ -264,7 +268,10 @@ p {
   grid-template-columns: 3fr 1fr 1fr;
   margin: 10px;
   gap: 10px;
-  text-align: center;
+}
+
+.indhold_grid-1-1-1 p {
+  text-align: justify;
 }
 
 .indhold_grid-1-1-1 video {
@@ -321,8 +328,21 @@ border-radius: 10px;
 border-color:black;
 }
 
-.indhold_grid-1-1_col_1 {
-  
+.indhold_grid-1-1_col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.indhold_grid-1-1_col p {
+  text-align: justify;
+}
+
+.indhold_grid-1-1_col h2{
+  display: flex;
+  background: #f9f9f9;
+  align-items: center;
+  justify-content: center;
 }
 
 /* about.html */
