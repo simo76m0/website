@@ -24,6 +24,7 @@
 
 .index_col_2 p {
   max-width: 50%;
+  text-align: justify;
 }
 
 .content_grid_1-1 {
@@ -129,9 +130,9 @@ transform: scale(1.01);
 }
 
 .font3 {
-  text-align: center;
+  text-align: justify;
   font-size: 35px;
-  line-height: 50px;
+  line-height: 60px;
 }
 
 /* web.html */
@@ -180,6 +181,18 @@ transform: scale(1.01);
 
 .web_grid_2-1 img {
   max-width: 100%;
+}
+
+.font4 {
+  text-align: justify;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.font5 {
+  text-align: justify;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .web_col_flex {
@@ -255,9 +268,15 @@ transform: scale(1.01);
   width: 100%;
 }
 
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .font2 {
   font-size: 50px;
-  text-align: center;
+  text-align: justify;
   line-height: 60px;
 }
 
