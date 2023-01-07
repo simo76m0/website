@@ -66,6 +66,7 @@ header .navbar ul li a:hover {
 header .navbar ul li ul {
   display: none;
   background: white;
+  z-index: 1;
 }
 
 header .navbar ul li ul {
