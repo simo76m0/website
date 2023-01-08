@@ -362,6 +362,7 @@ border-color:black;
   background: #f9f9f9;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 /* about.html */
@@ -528,6 +529,7 @@ background: #f9f9f9;
 
 .portfolio_grid-1-1-1-1 p{
   background: #f9f9f9;
+  text-align: justify;
   margin: 0;
 }
 
