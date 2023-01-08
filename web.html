@@ -39,12 +39,12 @@
             <p><strong>I</strong> opgaven 02.01.02 Website blev vi for første gang præsenteret for to af de tre sprog, som websites er opbygget af: HTML og CSS. Vi lærte, at HTML er et opmærkningssprog og bruges til at tildele mening til de enkelte tekstbidder, mens CSS er et kaskade sprog der giver HTML det visuelle udtryk. Uden CSS vil HTML ligne et simpelt Word-dokument. På baggrund af seks udleverede wireframes, tilhørende layout diagrammer, tekst og billeder skulle vi opbygge et website om computere.</p>
             <p><strong>Et</strong> andet krav i opgaven var, at websitet skulle følge de udleverede layout diagrammer med oplysninger om tags, semantik og attributter. I layout diagrammerne blev der blandt andet skelnet mellem grid og flexbox til siderne. Grid tillader os at strukturere indholdet gennem koordinater i form af rækker og kolonner, mens flexbox gør at vi kan arbejde på tværs af bokse. TIl galleri.html brugte jeg for eksempel et grid med fire kolonner, som gjorde at jeg gennem CSS præcist kunne fortælle hvor de forskellige billeder skulle ligge.</p>
             <div class="flex_center">
-            <h3 class="font5">"<br />ET SITE OM<br />COMPUTEREN MED<br />ALT FRA HISTORIE<br />TIL SPECIFIKATIONER.<br />”</h3>
+            <h3 class="font5">"<br />ET SITE OM COMPUTEREN MED ALT FRA HISTORIE TIL SPECIFIKATIONER.<br />”</h3>
           </div>  
           </div>  
             <div class="web_grid_1-1-1">
               <p><strong>Der</strong> var forskellige krav til opgaven. For eksempel skulle sitet validere uden fejl. Hertil installerede jeg udvidelsen W3C Web Validator i VS Code. HTML og CSS er opbygget af forskellige syntakser, også kaldet byggeklodser, der tilsammen udgør “reglerne” om sproget. W3C Web Validator hjælper med at fortælle, om syntaksen er skrevet forkert eller om  der mangler noget.</p>
-            <p><strong>Til</strong> komponenter.html brugte jeg flexbox, således at ….. </p>
+            <p><strong>Til</strong> komponenter.html brugte jeg en kombination af grid og flexbox. Jeg brugte først et div-tag med display: grid; for at definere antallet af kolonner (1fr 1fr 1fr) og derefter brugte jeg display: flex; på alle tre kolonner i hver sin div. Jeg brugte  flex-direction: column; for at få elementerne til at placere sig under hinanden.</p>
             </div>  
       <div class="web_grid_1-1-1">
         <div>
@@ -57,12 +57,16 @@
           <h2>02. MOBILE-FIRST</h2>
           <p>Her ses et eksempel på et udleveret wireframe til mobil-view. Wireframet ovenfor skulle bruges til komponenter.html. Jeg brugte wireframet som reference til at fastlægge CSS til mobil-view, som for eksempel at placere et billede under h1 og en h2 under billedet. På den måde gjorde jeg siden responsiv.</p>
         </div>
-        <div>
+        <div class="web_grid-1-1-1-layout">
           <img src="img/web-6.webp" alt="Layoutdiagram fra opgave 02.01.02 Website" />
-                    <h2>03. LAYOUT DIAGRAM</h2>
-                    <p>Her ses et udsnit af et eksempel på et udleveret layout diagram til opgaven. Layout diagrammet ovenfor skulle bruges til min_computer.html. Jeg brugte det til at fastlægge HTML strukturen på siden, samt navnene på de forskellige syntaksers attributter, for eksempel .grid_1-1 og .col til de to classes som det ses her.</p>
+          <div>
+          <div class="layout_text">         
+            <h2>03. LAYOUT DIAGRAM</h2>
+            <p>Her ses et udsnit af et eksempel på et udleveret layout diagram til opgaven. Layout diagrammet ovenfor skulle bruges til min_computer.html. Jeg brugte det til at fastlægge HTML strukturen på siden, samt navnene på de forskellige syntaksers attributter, for eksempel .grid_1-1 og .col til de to classes som det ses her.</p>
+         </div> 
         </div>
-      </div>
+        </div>
+        </div>
       <div class="web_grid_2-1">
         <img src="img/web-8.png" alt="Skærmbillede af hjemmeside fra 02.01.02 Emnesite" />
         <div class="web_col_flex">
