@@ -501,6 +501,8 @@ background: #f9f9f9;
 
 .text_col {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
 }
 
 .text_col p{
