@@ -566,15 +566,18 @@ background: #f9f9f9;
   width: 100%;
 }
 
-.portfolio_grid-1-1-1-1 p{
-  background: #f9f9f9;
-  text-align: justify;
-  margin: 0;
-}
-
 .portfolio_grid-1-1-1-1 .tom {
   background-color: #8e9fad;
   margin: 0;
+}
+
+.portfolio_grid_div {
+  background: #f9f9f9;
+  text-align: justify;
+}
+
+.portfolio_grid_div h2, p{
+margin: 10px;
 }
 
 /* Op til 1300px */
@@ -598,6 +601,39 @@ background: #f9f9f9;
 display: none;
 }
 
+.indhold_grid-1-1-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.indhold_col-3 {
+  grid-column: 1/3;
+}
+
+/*portfolio.html */
+
+.portfolio_grid-1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+}
+
+/* Op til 1200px */
+
+@media screen and (max-width: 1200px){
+
+/* portfolio.html */
+
+.portfolio_grid-1-1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text_col h2 {
+  display: none;
+
+}
 }
 
 /* Op til 1099px */
@@ -622,16 +658,42 @@ display: none;
   grid-template-columns: 1fr 1fr;
 }
 
+/* portfolio.html */
+
+.portfolio_grid-1-1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text_col {
+  grid-column: 1/3;
+  order: -1;
+}
+
+.portfolio_grid-1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 }
 
 /* Op til 950px */
 @media screen and (max-width: 950px){
 
-/* index.html */
+/* indhold.html */
 
 .indhold_grid-1-1 {
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.indhold_grid-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+video {
+  width: 100%;
 }
 
 }
