@@ -702,7 +702,6 @@ grid-template-columns: 1fr;
 .ani_grid-1-2 {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 150px;
 }
 
 }
@@ -721,10 +720,6 @@ grid-template-columns: 1fr;
   display: grid;
   grid-template-columns: 1fr;
 }
-
-/* .indhold_col-2 {
- display: none;
-} */
 
 .indhold_col-3 {
  display: none;
