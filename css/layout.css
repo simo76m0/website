@@ -423,6 +423,7 @@ border-color:black;
 
 .about_grid-1 img {
   width: 25%;
+  border-radius: 50%;
 }
 
 .about_grid-1-1 {
@@ -746,6 +747,18 @@ grid-template-columns: 1fr;
   grid-template-columns: 1fr;
 }
 
+/* about.html */
+
+.about_grid-1_contact {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about_grid-1 img {
+  width: 50%;
+  border-radius: 50%;
+}
+
 }
 
 /* op til 750px */
@@ -786,6 +799,18 @@ max-width: 100%;
   grid-template-columns: 1fr;
 }
 
+/* about.html */
+
+.about_grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about_grid-1-1-f {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 }
 
 
@@ -804,7 +829,6 @@ max-width: 100%;
   text-align: justify;
   max-width: 100%;
 }
-
 
 
 }
