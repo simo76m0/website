@@ -292,7 +292,7 @@ transform: scale(1.01);
 
 .indhold_grid-1-1-1 {
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   margin: 10px;
   gap: 30px;
 }
@@ -302,6 +302,7 @@ transform: scale(1.01);
 }
 
 .indhold_grid-1-1-1 video {
+  display: block;
   width: 100%;
 }
 
@@ -397,6 +398,12 @@ border-color:black;
   align-items: center;
   justify-content: center;
   background: #f9f9f9;
+}
+
+.p_display_none {
+  display: none;
+  text-align: justify;
+  margin: 10px;
 }
 
 /* about.html */
@@ -715,8 +722,18 @@ grid-template-columns: 1fr;
   grid-template-columns: 1fr;
 }
 
-video {
-  width: 100%;
+/* .indhold_col-2 {
+ display: none;
+} */
+
+.indhold_col-3 {
+ display: none;
+}
+
+.p_display_none {
+  display: block;
+  text-align: justify;
+  padding: 10px;
 }
 
 }
