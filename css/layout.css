@@ -406,6 +406,43 @@ border-color:black;
   margin: 10px;
 }
 
+#video_container {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 1px black solid;
+  line-height: 0;
+  position: relative;
+}
+
+#controls {
+  grid-column: 1;
+  display: flex;
+  gap: 1em;
+  margin: 10px;
+  place-content: center;
+}
+
+#play,
+#stop {
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 12%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#play {
+  background-image: url("/img/play_black.svg");
+}
+#stop {
+  background-image: url("/img/stop_black.svg");
+}
+
 /* about.html */
 
 .about_grid-1 {
