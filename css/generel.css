@@ -15,7 +15,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "jovera";
 }
 
@@ -107,5 +108,20 @@ footer .footer_text {
 
 .click_btn:hover {
   transform: scale(1.1);
+}
+
+.titel_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.titel_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
 }
 
