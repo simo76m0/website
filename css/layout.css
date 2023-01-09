@@ -247,6 +247,7 @@ transform: scale(1.01);
 .ani_col-1 {
   background-color: #f9f9f9;
   padding: 10px;
+  margin: 10px;
 }
 
 .ani_col-1 h2 {
@@ -255,6 +256,7 @@ transform: scale(1.01);
 
 .ani_col-1 p {
   text-align: justify;
+  margin: 0;
 }
 
 .ani_col-2 img {
@@ -265,7 +267,6 @@ transform: scale(1.01);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  margin: 10px;
 }
 
 .ani_img {
@@ -578,7 +579,7 @@ background: #f9f9f9;
 }
 
 .portfolio_grid_div h2, p{
-margin: 10px;
+  margin: 10px;
 }
 
 /* Op til 1300px */
@@ -611,11 +612,18 @@ display: none;
   grid-column: 1/3;
 }
 
-/*portfolio.html */
+/* portfolio.html */
 
 .portfolio_grid-1-1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* animation.html */
+
+.ani_grid-1-1-1 {
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 }
@@ -674,6 +682,20 @@ display: none;
 .portfolio_grid-1-1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+/* animation.html */
+.ani_grid_2-1 {
+display: grid;
+grid-template-columns: 1fr;
+}
+
+/* animation.html */
+
+.ani_grid-1-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 150px;
 }
 
 }
@@ -747,6 +769,13 @@ grid-template-columns: 1fr;
   grid-template-columns: 1fr;
 }
 
+.ani_grid-1-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+}
+
+
 /* about.html */
 
 .about_grid-1_contact {
@@ -757,6 +786,14 @@ grid-template-columns: 1fr;
 .about_grid-1 img {
   width: 50%;
   border-radius: 50%;
+}
+
+/* animation.html */
+
+.ani_grid-1-1-1 {
+display: grid;
+grid-template-columns: 1fr;
+width: 100%;
 }
 
 }
