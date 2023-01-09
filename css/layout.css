@@ -355,9 +355,20 @@ transform: scale(1.01);
   border-radius: 10px;
 }
 
+.indhold_grid_1-2_0 p{
+text-align: justify;
+}
+
 .indhold_grid-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.indhold_grid-1-1_scrum {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   margin: 10px;
 }
@@ -380,12 +391,11 @@ border-color:black;
   text-align: justify;
 }
 
-.indhold_grid-1-1_col h2{
+.indhold_grid_h2 {
   display: flex;
-  background: #f9f9f9;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  background: #f9f9f9;
 }
 
 /* about.html */
@@ -567,6 +577,29 @@ background: #f9f9f9;
   margin: 0;
 }
 
+/* Op til 1300px */
+
+@media screen and (max-width: 1300px) {
+  
+
+/* indhold.html */
+
+.indhold_grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.indhold_grid-1-1_col {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.indhold_grid_h2 {
+display: none;
+}
+
+}
+
 /* Op til 1099px */
 
 @media screen and (max-width: 1099px){
@@ -587,6 +620,18 @@ background: #f9f9f9;
 .web_grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+}
+
+/* Op til 950px */
+@media screen and (max-width: 950px){
+
+/* index.html */
+
+.indhold_grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 }
@@ -672,8 +717,15 @@ max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
 }
+/* indhold.html */
+
+.indhold_grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 }
+
 
 /* op til 500px */
 
@@ -690,5 +742,7 @@ max-width: 100%;
   text-align: justify;
   max-width: 100%;
 }
+
+
 
 }
