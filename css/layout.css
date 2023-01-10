@@ -490,6 +490,7 @@ border-color:black;
 .about_flex_col-1 p {
   text-align: right;
   background: #8e9fad;
+  margin: 0;
 }
 
 .about_flex_col-1 h2 {
@@ -513,6 +514,10 @@ background: #f9f9f9;
   border-radius: 10px;
   padding: 15px;
   border-color: #8e9fad;
+}
+
+.about_flex_col-2 p {
+margin: 0;
 }
 
 .about_grid-1-1-f {
