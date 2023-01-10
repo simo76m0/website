@@ -1,16 +1,16 @@
 @font-face {
   font-family: "elgraine";
-  src: url(elgraine-thin-webfont.woff2) format(woff2);
+  src: url(../fonts/elgraine-thin-webfont.woff2) format(woff2);
 }
 
 @font-face {
   font-family: "jovera";
-  src: url(jovera-webfont.woff2) format(woff2);
+  src: url(../fonts/jovera-webfont.woff2) format(woff2);
 }
 
 @font-face {
   font-family: "elgraine_black";
-  src: url(elgraine-black-webfont.woff2) format(woff2);
+  src: url(../fonts/elgraine-black-webfont.woff2) format(woff2);
 }
 
 h2,
