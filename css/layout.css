@@ -424,12 +424,7 @@ border-color:black;
 }
 
 #playbackrate {
-  font-family: "Abel";
-  font-size: 0.8em;
-  position: absolute;
-  top: 4%;
-  right: 5%;
-  color: white;
+  display: none;
 }
 
 #play,
