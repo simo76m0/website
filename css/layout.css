@@ -423,8 +423,19 @@ border-color:black;
   place-content: center;
 }
 
+#playbackrate {
+  font-family: "Abel";
+  font-size: 0.8em;
+  position: absolute;
+  top: 4%;
+  right: 5%;
+  color: white;
+}
+
 #play,
-#stop {
+#stop,
+#slowdown,
+#speedup {
   background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -437,10 +448,17 @@ border-color:black;
 }
 
 #play {
-  background-image: url("/img/play_black.svg");
+  background-image: url("/img/play.svg");
 }
 #stop {
-  background-image: url("/img/stop_black.svg");
+  background-image: url("/img/stop.svg");
+}
+
+#slowdown {
+  background-image: url("../img/faster.svg");
+}
+#speedup {
+  background-image: url("../img/slower.svg");
 }
 
 /* about.html */
