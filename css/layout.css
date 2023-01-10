@@ -443,10 +443,10 @@ border-color:black;
 }
 
 #play {
-  background-image: url("/img/play.svg");
+  background-image: url("../img/play.svg");
 }
 #stop {
-  background-image: url("/img/stop.svg");
+  background-image: url("../img/stop.svg");
 }
 
 #slowdown {
